@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.yourname.airportsearch</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>9643ED0F-223C-433A-B70F-600E1D8A5911</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>46B0991C-79B7-41A6-AB5E-470776493871</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kaoru Matsui</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Airport Code Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>46B0991C-79B7-41A6-AB5E-470776493871</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>iata</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import sys
+import json
+import unicodedata
+
+query = sys.argv[1]
+normalized_query = unicodedata.normalize('NFC', query).lower()
+
+results = []
+
+with open('airports.json', 'r', encoding='utf-8') as f:
+    airports_data = json.load(f)
+
+for airport in airports_data:
+    search_target_raw = (
+        f"{airport.get('name', '')} "
+        f"{airport.get('municipality', '')} "
+        f"{airport.get('country_jp', '')} "
+        f"{airport.get('state_jp', '')} "
+        f"{airport.get('city_jp', '')}"
+    )
+
+    normalized_search_target = unicodedata.normalize('NFC', search_target_raw).lower()
+
+    if normalized_query in normalized_search_target:
+        iata_code = airport.get('iata_code', '')
+
+        subtitle_parts = [part for part in [airport.get('city_jp'), airport.get('state_jp'), airport.get('country_jp')] if part]
+        if subtitle_parts:
+            subtitle = " - ".join(subtitle_parts)
+        else:
+            subtitle = f"{airport.get('municipality', '')}, {airport.get('iso_country', '')}"
+
+        item = {
+            "uid": iata_code,
+            "title": f"{airport.get('name', '')} ({iata_code})",
+            "subtitle": subtitle,
+            "arg": iata_code,
+            "icon": {"path": "icon.png"}
+        }
+        results.append(item)
+
+alfred_results = json.dumps({"items": results[:50]})
+sys.stdout.write(alfred_results)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search by country, state or city</string>
+				<key>title</key>
+				<string>Search Airports...</string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9643ED0F-223C-433A-B70F-600E1D8A5911</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>46B0991C-79B7-41A6-AB5E-470776493871</key>
+		<dict>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>9643ED0F-223C-433A-B70F-600E1D8A5911</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
