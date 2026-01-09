@@ -1,0 +1,32 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create workflow file
+        run: |
+          cd src
+          zip -r ../release.zip airports.json ariport_code_search_script.py icon.png info.plist test.py
+          cd ..
+          zip -r release.zip flags/
+          mv release.zip "Airport Code Search.alfredworkflow"
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "Airport Code Search.alfredworkflow"
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -37,17 +37,33 @@ jobs:
             echo "Changes detected in airports.json"
           fi
       
-      - name: Create Pull Request
+      - name: Bump version and create release
         if: steps.changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          title: "chore: update airports.json from OurAirports"
-          body: |
-            This PR updates `airports.json` with the latest data from [OurAirports](https://ourairports.com/).
-            
-            **Automated monthly update**
-            - Source: https://github.com/davidmegginson/ourairports-data
-            - Existing Japanese translations (country_jp, state_jp, city_jp) are preserved
-          branch: update-airports-data
-          commit-message: "chore: update airports.json from OurAirports"
-          labels: automated,data-update
+        run: |
+          # info.plist から現在のバージョンを取得
+          CURRENT_VERSION=$(grep -A1 '<key>version</key>' src/info.plist | grep '<string>' | sed 's/.*<string>\(.*\)<\/string>.*/\1/')
+          echo "Current version: $CURRENT_VERSION"
+          
+          # バージョンをインクリメント（パッチバージョン）
+          IFS='.' read -r major minor patch <<< "$CURRENT_VERSION"
+          NEW_PATCH=$((patch + 1))
+          NEW_VERSION="${major}.${minor}.${NEW_PATCH}"
+          echo "New version: $NEW_VERSION"
+          
+          # info.plist のバージョンを更新
+          sed -i "s|<string>${CURRENT_VERSION}</string>|<string>${NEW_VERSION}</string>|" src/info.plist
+          
+          # Git の設定
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 変更をコミット
+          git add src/airports.json src/info.plist
+          git commit -m "chore: update airports.json and bump version to ${NEW_VERSION}"
+          
+          # タグを作成
+          git tag -a "v${NEW_VERSION}" -m "Release v${NEW_VERSION} - Airport data update"
+          
+          # プッシュ（コミットとタグ）
+          git push origin main
+          git push origin "v${NEW_VERSION}"
