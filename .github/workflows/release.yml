@@ -2,8 +2,11 @@ name: Create Release
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
+    paths:
+      - 'src/airports.json'
+      - 'src/info.plist'
 
 jobs:
   build:
@@ -14,8 +17,37 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get version from info.plist
+        id: version
+        run: |
+          VERSION=$(grep -A1 '<key>version</key>' src/info.plist | grep '<string>' | sed 's/.*<string>\(.*\)<\/string>.*/\1/')
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "Version: ${VERSION}"
+
+      - name: Check if tag exists
+        id: check_tag
+        run: |
+          if git rev-parse "v${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Tag v${{ steps.version.outputs.version }} already exists"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "Tag v${{ steps.version.outputs.version }} does not exist"
+          fi
+
+      - name: Create and push tag
+        if: steps.check_tag.outputs.exists == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag -a "v${{ steps.version.outputs.version }}" -m "Release v${{ steps.version.outputs.version }}"
+          git push origin "v${{ steps.version.outputs.version }}"
 
       - name: Create workflow file
+        if: steps.check_tag.outputs.exists == 'false'
         run: |
           cd src
           zip -r ../release.zip airports.json ariport_code_search_script.py icon.png info.plist test.py
@@ -24,9 +56,12 @@ jobs:
           mv release.zip "Airport Code Search.alfredworkflow"
 
       - name: Upload Release Asset
+        if: steps.check_tag.outputs.exists == 'false'
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: "v${{ steps.version.outputs.version }}"
           files: "Airport Code Search.alfredworkflow"
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
