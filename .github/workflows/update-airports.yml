@@ -1,0 +1,53 @@
+name: Update Airport Data
+
+on:
+  schedule:
+    # 毎月1日 UTC 00:00 (JST 09:00)
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+    # 手動実行も可能
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Run update script
+        run: python scripts/update_airports.py
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet src/airports.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in airports.json"
+          fi
+      
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "chore: update airports.json from OurAirports"
+          body: |
+            This PR updates `airports.json` with the latest data from [OurAirports](https://ourairports.com/).
+            
+            **Automated monthly update**
+            - Source: https://github.com/davidmegginson/ourairports-data
+            - Existing Japanese translations (country_jp, state_jp, city_jp) are preserved
+          branch: update-airports-data
+          commit-message: "chore: update airports.json from OurAirports"
+          labels: automated,data-update
