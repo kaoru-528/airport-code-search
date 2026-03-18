@@ -657,6 +657,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "DST",
+    "name": "Dubai Seaplane Terminal",
+    "municipality": "",
+    "iso_country": "AE",
+    "country_jp": "アラブ首長国連邦",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "AEE",
     "name": "Adareil Airport",
     "municipality": "Adar",
@@ -680,6 +689,15 @@
     "municipality": "Ampara",
     "iso_country": "LK",
     "country_jp": "スリランカ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "BBQ",
+    "name": "Burton-Nibbs International Airport",
+    "municipality": "Codrington",
+    "iso_country": "AG",
+    "country_jp": "アンティグア・バーブーダ",
     "state_jp": "",
     "city_jp": ""
   },
@@ -1172,7 +1190,7 @@
   {
     "iata_code": "INU",
     "name": "Nauru International Airport",
-    "municipality": "Yaren District",
+    "municipality": "Yaren",
     "iso_country": "NR",
     "country_jp": "ナウル",
     "state_jp": "",
@@ -4186,7 +4204,7 @@
   },
   {
     "iata_code": "UAK",
-    "name": "Narsarsuaq International Airport",
+    "name": "Narsarsuaq Airport",
     "municipality": "Narsarsuaq",
     "iso_country": "GL",
     "country_jp": "グリーンランド",
@@ -4861,7 +4879,7 @@
   },
   {
     "iata_code": "MVA",
-    "name": "Reykjahlíð Airport",
+    "name": "Mývatn Airport",
     "municipality": "Myvatn",
     "iso_country": "IS",
     "country_jp": "アイスランド",
@@ -6239,7 +6257,7 @@
   {
     "iata_code": "BZX",
     "name": "Bazhong Enyang Airport",
-    "municipality": "Bazhong (Enyang)",
+    "municipality": "Bazhong",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -6274,7 +6292,7 @@
   },
   {
     "iata_code": "JNH",
-    "name": "Jiaxing Airport / Jiaxing Air Base",
+    "name": "Jiaxing Nanhu Airport",
     "municipality": "Xiuzhou, Hangzhou",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -6303,15 +6321,6 @@
     "iata_code": "WHN",
     "name": "Wuhan Hannan Municipal Airport",
     "municipality": "Wuhan (Hannan)",
-    "iso_country": "CN",
-    "country_jp": "中国",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "NAY",
-    "name": "Beijing Nanjiao Military Airport",
-    "municipality": "Beijing",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -6552,8 +6561,17 @@
     "city_jp": ""
   },
   {
+    "iata_code": "NAY",
+    "name": "Beijing Nanyuan Airport",
+    "municipality": "Beijing",
+    "iso_country": "CN",
+    "country_jp": "中国",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "BFY",
-    "name": "Bengbu Tenghu Airport (U.C.)",
+    "name": "Bengbu Tenghu Airport",
     "municipality": "Bengbu",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -9361,7 +9379,7 @@
   },
   {
     "iata_code": "YXS",
-    "name": "Prince George (Intl) Airport",
+    "name": "Prince George (International) Airport",
     "municipality": "Prince George",
     "iso_country": "CA",
     "country_jp": "カナダ",
@@ -10126,7 +10144,7 @@
   },
   {
     "iata_code": "DJG",
-    "name": "Djanet Inedbirene Airport",
+    "name": "Tiska Djanet Airport",
     "municipality": "Djanet",
     "iso_country": "DZ",
     "country_jp": "アルジェリア",
@@ -11242,7 +11260,7 @@
   },
   {
     "iata_code": "QOW",
-    "name": "Sam Mbakwe International Airport",
+    "name": "Sam Mbakwe International Cargo Airport",
     "municipality": "Owerri",
     "iso_country": "NG",
     "country_jp": "ナイジェリア",
@@ -12060,6 +12078,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "QLG",
+    "name": "Landshut Airfield",
+    "municipality": "Landshut",
+    "iso_country": "DE",
+    "country_jp": "ドイツ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "OBF",
     "name": "Oberpfaffenhofen Airport",
     "municipality": "Weßling",
@@ -12681,15 +12708,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "TFR",
-    "name": "Katameya Air Base",
-    "municipality": "New Cairo",
-    "iso_country": "EG",
-    "country_jp": "エジプト",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "AUE",
     "name": "Abu Rudeis Airport",
     "municipality": "Ras Abu Rudeis",
@@ -12989,7 +13007,7 @@
   {
     "iata_code": "LTN",
     "name": "London Luton Airport",
-    "municipality": "Luton, Bedfordshire",
+    "municipality": "Luton, Luton",
     "iso_country": "GB",
     "country_jp": "イギリス",
     "state_jp": "",
@@ -13259,7 +13277,7 @@
   {
     "iata_code": "EMA",
     "name": "East Midlands Airport",
-    "municipality": "Nottingham",
+    "municipality": "Nottingham, Leicestershire",
     "iso_country": "GB",
     "country_jp": "イギリス",
     "state_jp": "",
@@ -14356,7 +14374,7 @@
   },
   {
     "iata_code": "LYR",
-    "name": "Svalbard Airport",
+    "name": "Svalbard Airport, Longyear",
     "municipality": "Longyearbyen",
     "iso_country": "NO",
     "country_jp": "ノルウェー",
@@ -15940,7 +15958,7 @@
   },
   {
     "iata_code": "UTN",
-    "name": "Upington International Airport",
+    "name": "Upington Airport",
     "municipality": "Upington",
     "iso_country": "ZA",
     "country_jp": "南アフリカ",
@@ -16957,7 +16975,7 @@
   },
   {
     "iata_code": "MFU",
-    "name": "Mfuwe Airport",
+    "name": "Mfuwe International Airport",
     "municipality": "Mfuwe",
     "iso_country": "ZM",
     "country_jp": "ザンビア",
@@ -17110,7 +17128,7 @@
   },
   {
     "iata_code": "ZSE",
-    "name": "Pierrefonds Airport",
+    "name": "Saint-Pierre Pierrefonds Airport",
     "municipality": "Saint-Pierre",
     "iso_country": "RE",
     "country_jp": "レユニオン",
@@ -18352,7 +18370,7 @@
   },
   {
     "iata_code": "MNC",
-    "name": "Nacala Airport",
+    "name": "Nacala International Airport",
     "municipality": "Nacala",
     "iso_country": "MZ",
     "country_jp": "モザンビーク",
@@ -18397,7 +18415,7 @@
   },
   {
     "iata_code": "TET",
-    "name": "Chingozi Airport",
+    "name": "Tete Airport",
     "municipality": "Tete",
     "iso_country": "MZ",
     "country_jp": "モザンビーク",
@@ -18694,7 +18712,7 @@
   },
   {
     "iata_code": "KAB",
-    "name": "Kariba International Airport",
+    "name": "Kariba Airport",
     "municipality": "Kariba",
     "iso_country": "ZW",
     "country_jp": "ジンバブエ",
@@ -18730,7 +18748,7 @@
   },
   {
     "iata_code": "GWE",
-    "name": "Gweru - Thornhill Air Base",
+    "name": "Josiah Tungamirai Air Force Base",
     "municipality": "Gweru",
     "iso_country": "ZW",
     "country_jp": "ジンバブエ",
@@ -19944,6 +19962,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "QUY",
+    "name": "RAF Wyton",
+    "municipality": "St Ives, Cambridgeshire",
+    "iso_country": "GB",
+    "country_jp": "イギリス",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "PZE",
     "name": "Penzance Heliport",
     "municipality": "Penzance, Cornwall",
@@ -20836,7 +20863,7 @@
   },
   {
     "iata_code": "CKY",
-    "name": "Conakry International Airport",
+    "name": "Ahmed Sékou Touré International Airport",
     "municipality": "Conakry",
     "iso_country": "GN",
     "country_jp": "ギニア",
@@ -21078,15 +21105,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "BCO",
-    "name": "Baco Airport",
-    "municipality": "Baco",
-    "iso_country": "ET",
-    "country_jp": "エチオピア",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "BJR",
     "name": "Bahir Dar Airport",
     "municipality": "Bahir Dar",
@@ -21234,6 +21252,15 @@
     "iata_code": "JIJ",
     "name": "Gerad Wilwal International Airport",
     "municipality": "Jijiga",
+    "iso_country": "ET",
+    "country_jp": "エチオピア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "BCO",
+    "name": "Baco Airport",
+    "municipality": "Jinka",
     "iso_country": "ET",
     "country_jp": "エチオピア",
     "state_jp": "",
@@ -21529,7 +21556,7 @@
   },
   {
     "iata_code": "BSA",
-    "name": "Bosaso / Bender Qassim International Airport",
+    "name": "Bender Qassim International Airport",
     "municipality": "Bosaso",
     "iso_country": "SO",
     "country_jp": "ソマリア",
@@ -22420,7 +22447,7 @@
   },
   {
     "iata_code": "LTD",
-    "name": "Ghadames East Airport",
+    "name": "Ghadames Airport",
     "municipality": "Ghadames",
     "iso_country": "LY",
     "country_jp": "リビア",
@@ -23042,7 +23069,7 @@
   {
     "iata_code": "EBB",
     "name": "Entebbe International Airport",
-    "municipality": "Kampala",
+    "municipality": "Entebbe",
     "iso_country": "UG",
     "country_jp": "ウガンダ",
     "state_jp": "",
@@ -23104,7 +23131,7 @@
   },
   {
     "iata_code": "PAF",
-    "name": "Kabalega Falls Airport",
+    "name": "Pakuba Airport",
     "municipality": "Pakuba",
     "iso_country": "UG",
     "country_jp": "ウガンダ",
@@ -25723,7 +25750,7 @@
   },
   {
     "iata_code": "BOS",
-    "name": "General Edward Lawrence Logan International Airport",
+    "name": "Boston Logan International Airport",
     "municipality": "Boston",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -25930,7 +25957,7 @@
   },
   {
     "iata_code": "BUR",
-    "name": "Bobe Hope / Hollywood Burbank Airport",
+    "name": "Hollywood Burbank Airport",
     "municipality": "Burbank",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -29953,7 +29980,7 @@
   },
   {
     "iata_code": "GYY",
-    "name": "Gary Chicago International Airport",
+    "name": "Gary/Chicago International Airport",
     "municipality": "Gary",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -30439,7 +30466,7 @@
   },
   {
     "iata_code": "HST",
-    "name": "Homestead ARB Airport",
+    "name": "Homestead Air Reserve Base",
     "municipality": "Homestead",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -32689,7 +32716,7 @@
   },
   {
     "iata_code": "MHV",
-    "name": "Mojave Airport",
+    "name": "Mojave Air &  Space Port",
     "municipality": "Mojave",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -40815,6 +40842,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "QZD",
+    "name": "Szeged Airport",
+    "municipality": "Szeged",
+    "iso_country": "HU",
+    "country_jp": "ハンガリー",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "CRV",
     "name": "Crotone Sant'Anna Pythagoras Airport",
     "municipality": "Isola di Capo Rizzuto (KR)",
@@ -42130,7 +42166,7 @@
   },
   {
     "iata_code": "SMV",
-    "name": "Samedan Airport",
+    "name": "Engadin Airport",
     "municipality": "Samedan",
     "iso_country": "CH",
     "country_jp": "スイス",
@@ -42742,7 +42778,7 @@
   },
   {
     "iata_code": "BZY",
-    "name": "Bălți International Airport",
+    "name": "Bălți-Leadoveni International Airport",
     "municipality": "Bălți",
     "iso_country": "MD",
     "country_jp": "モルドバ",
@@ -43723,7 +43759,7 @@
   },
   {
     "iata_code": "XPL",
-    "name": "Palmerola International Airport / José Enrique Soto Cano Air Base",
+    "name": "Palmerola International Airport",
     "municipality": "Palmerola",
     "iso_country": "HN",
     "country_jp": "ホンジュラス",
@@ -43741,7 +43777,7 @@
   },
   {
     "iata_code": "TGU",
-    "name": "Toncontín International Airport",
+    "name": "Toncontín Airport",
     "municipality": "Tegucigalpa",
     "iso_country": "HN",
     "country_jp": "ホンジュラス",
@@ -43921,7 +43957,7 @@
   },
   {
     "iata_code": "AGU",
-    "name": "Jesús Terán Peredo International Airport",
+    "name": "Aguascalientes International Airport",
     "municipality": "Aguascalientes",
     "iso_country": "MX",
     "country_jp": "メキシコ",
@@ -44335,8 +44371,8 @@
   },
   {
     "iata_code": "MEX",
-    "name": "Benito Juárez International Airport",
-    "municipality": "Ciudad de México",
+    "name": "Mexico City Benito Juárez International Airport",
+    "municipality": "Mexico City",
     "iso_country": "MX",
     "country_jp": "メキシコ",
     "state_jp": "",
@@ -44505,8 +44541,17 @@
     "city_jp": ""
   },
   {
+    "iata_code": "CSW",
+    "name": "Cabo San Lucas International Airport",
+    "municipality": "Cabo San Lucas",
+    "iso_country": "MX",
+    "country_jp": "メキシコ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "NLU",
-    "name": "General Felipe Ángeles International Airport",
+    "name": "Felipe Ángeles International Airport",
     "municipality": "Mexico City",
     "iso_country": "MX",
     "country_jp": "メキシコ",
@@ -44570,7 +44615,7 @@
   {
     "iata_code": "TAM",
     "name": "General Francisco Javier Mina International Airport",
-    "municipality": "Tampico",
+    "municipality": "Ciudad Madero",
     "iso_country": "MX",
     "country_jp": "メキシコ",
     "state_jp": "",
@@ -44803,7 +44848,7 @@
   },
   {
     "iata_code": "BOC",
-    "name": "Bocas del Toro International Airport",
+    "name": "Bocas del Toro \"Isla Colón\" International Airport",
     "municipality": "Isla Colón",
     "iso_country": "PA",
     "country_jp": "パナマ",
@@ -45055,7 +45100,7 @@
   },
   {
     "iata_code": "LIR",
-    "name": "Guanacaste Airport",
+    "name": "Daniel Oduber Quirós International Airport",
     "municipality": "Liberia",
     "iso_country": "CR",
     "country_jp": "コスタリカ",
@@ -45073,8 +45118,8 @@
   },
   {
     "iata_code": "LIO",
-    "name": "Limon International Airport",
-    "municipality": "Puerto Limon",
+    "name": "Limón International Airport",
+    "municipality": "Limón",
     "iso_country": "CR",
     "country_jp": "コスタリカ",
     "state_jp": "",
@@ -48141,15 +48186,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "THH",
-    "name": "Taharoa Aerodrome",
-    "municipality": "Taharoa",
-    "iso_country": "NZ",
-    "country_jp": "ニュージーランド",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "TIU",
     "name": "Timaru Airport",
     "municipality": "",
@@ -48187,8 +48223,8 @@
   },
   {
     "iata_code": "WHK",
-    "name": "Whakatane Airport",
-    "municipality": "",
+    "name": "Whakatāne Airport",
+    "municipality": "Whakatāne",
     "iso_country": "NZ",
     "country_jp": "ニュージーランド",
     "state_jp": "",
@@ -48403,8 +48439,8 @@
   },
   {
     "iata_code": "KDH",
-    "name": "Ahmad Shah Baba International Airport / Kandahar Airfield",
-    "municipality": "Khvoshab",
+    "name": "Ahmad Shah Baba International Airport",
+    "municipality": "Kandahar",
     "iso_country": "AF",
     "country_jp": "アフガニスタン",
     "state_jp": "",
@@ -48601,8 +48637,8 @@
   },
   {
     "iata_code": "ULH",
-    "name": "Majeed Bin Abdulaziz Airport",
-    "municipality": "Al Ula",
+    "name": "Al-Ula International Airport",
+    "municipality": "Al-Ula",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
     "state_jp": "",
@@ -48664,8 +48700,8 @@
   },
   {
     "iata_code": "ELQ",
-    "name": "Gassim Airport",
-    "municipality": "Buraidah",
+    "name": "Prince Naif bin Abdulaziz International Airport",
+    "municipality": "Qassim",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
     "state_jp": "",
@@ -48799,7 +48835,7 @@
   },
   {
     "iata_code": "AJF",
-    "name": "Al-Jawf Domestic Airport",
+    "name": "Al-Jawf International Airport",
     "municipality": "Al-Jawf",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
@@ -48817,7 +48853,7 @@
   },
   {
     "iata_code": "TUU",
-    "name": "Tabuk Airport",
+    "name": "Prince Sultan bin Abdulaziz International Airport",
     "municipality": "Tabuk",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
@@ -48826,8 +48862,8 @@
   },
   {
     "iata_code": "TIF",
-    "name": "Ta’if Regional Airport",
-    "municipality": "Ta’if",
+    "name": "Taif International Airport",
+    "municipality": "Taif",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
     "state_jp": "",
@@ -48862,7 +48898,7 @@
   },
   {
     "iata_code": "YNB",
-    "name": "Prince Abdul Mohsin bin Abdulaziz International Airport",
+    "name": "Prince Abdulmohsen Bin Abdulaziz International Airport",
     "municipality": "Yanbu",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
@@ -49186,7 +49222,7 @@
   },
   {
     "iata_code": "PYK",
-    "name": "Payam Karaj International Airport",
+    "name": "Payam International Airport",
     "municipality": "Karaj",
     "iso_country": "IR",
     "country_jp": "イラン",
@@ -50284,8 +50320,8 @@
   },
   {
     "iata_code": "SKZ",
-    "name": "Sukkur Airport",
-    "municipality": "Mirpur Khas",
+    "name": "Begum Nusrat Bhutto International Airport Sukkur",
+    "municipality": "Sukkur",
     "iso_country": "PK",
     "country_jp": "パキスタン",
     "state_jp": "",
@@ -52794,6 +52830,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "PAW",
+    "name": "Pambwa Airstrip",
+    "municipality": "Pambwa Station",
+    "iso_country": "PG",
+    "country_jp": "パプアニューギニア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "TAJ",
     "name": "Tadji Airport",
     "municipality": "Aitape",
@@ -53326,7 +53371,7 @@
   },
   {
     "iata_code": "PCJ",
-    "name": "Aeródromo de Puerto La Victoria",
+    "name": "Puerto La Victoria Airport",
     "municipality": "Puerto La Victoria",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -55108,7 +55153,7 @@
   },
   {
     "iata_code": "BQA",
-    "name": "Dr Juan C Angara Airport",
+    "name": "Dr. Juan C. Angara Airport",
     "municipality": "Baler",
     "iso_country": "PH",
     "country_jp": "フィリピン",
@@ -55180,7 +55225,7 @@
   },
   {
     "iata_code": "BCD",
-    "name": "Bacolod-Silay Airport",
+    "name": "Bacolod-Silay International Airport",
     "municipality": "Bacolod City",
     "iso_country": "PH",
     "country_jp": "フィリピン",
@@ -56368,7 +56413,7 @@
   },
   {
     "iata_code": "AJU",
-    "name": "Aracaju - Santa Maria International Airport",
+    "name": "Aracaju - Santa Maria Airport",
     "municipality": "Aracaju",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -56467,7 +56512,7 @@
   },
   {
     "iata_code": "BVB",
-    "name": "Atlas Brasil Cantanhede Airport",
+    "name": "Atlas Brasil Cantanhede International Airport",
     "municipality": "Boa Vista",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -56638,7 +56683,7 @@
   },
   {
     "iata_code": "CGB",
-    "name": "Marechal Rondon Airport",
+    "name": "Várzea Grande–Marechal Rondon International Airport",
     "municipality": "Cuiabá",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -56927,7 +56972,7 @@
   {
     "iata_code": "RRJ",
     "name": "Jacarepaguá - Roberto Marinho Airport",
-    "municipality": "Rio De Janeiro",
+    "municipality": "Rio de Janeiro",
     "iso_country": "BR",
     "country_jp": "ブラジル",
     "state_jp": "",
@@ -57259,7 +57304,7 @@
   },
   {
     "iata_code": "BPS",
-    "name": "Porto Seguro Airport",
+    "name": "Porto Seguro International Airport",
     "municipality": "Porto Seguro",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -57268,7 +57313,7 @@
   },
   {
     "iata_code": "PVH",
-    "name": "Governador Jorge Teixeira de Oliveira Airport",
+    "name": "Governador Jorge Teixeira de Oliveira International Airport",
     "municipality": "Porto Velho",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -57520,7 +57565,7 @@
   },
   {
     "iata_code": "TBT",
-    "name": "Tabatinga Airport",
+    "name": "Tabatinga International Airport",
     "municipality": "Tabatinga",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -57610,7 +57655,7 @@
   },
   {
     "iata_code": "VIX",
-    "name": "Eurico de Aguiar Salles Airport",
+    "name": "Eurico de Aguiar Salles International Airport",
     "municipality": "Vitória",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -57664,7 +57709,7 @@
   },
   {
     "iata_code": "ARI",
-    "name": "Chacalluta Airport",
+    "name": "Chacalluta International Airport",
     "municipality": "Arica",
     "iso_country": "CL",
     "country_jp": "チリ",
@@ -57772,7 +57817,7 @@
   },
   {
     "iata_code": "IQQ",
-    "name": "Diego Aracena Airport",
+    "name": "Diego Aracena International Airport",
     "municipality": "Iquique",
     "iso_country": "CL",
     "country_jp": "チリ",
@@ -57970,7 +58015,7 @@
   },
   {
     "iata_code": "ZCO",
-    "name": "La Araucanía Airport",
+    "name": "La Araucanía International Airport",
     "municipality": "Temuco",
     "iso_country": "CL",
     "country_jp": "チリ",
@@ -58555,7 +58600,7 @@
   },
   {
     "iata_code": "ASU",
-    "name": "Aeropuerto Internacional Silvio Pettirossi",
+    "name": "Silvio Pettirossi International Airport",
     "municipality": "Asunción",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58591,7 +58636,7 @@
   },
   {
     "iata_code": "ENO",
-    "name": "Aeropuerto Internacional Tte. Amín Ayub González",
+    "name": "Teniente Ramon A. Ayub Gonzalez International Airport",
     "municipality": "Encarnación",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58600,7 +58645,7 @@
   },
   {
     "iata_code": "AGT",
-    "name": "Aeropuerto Internacional Guaraní",
+    "name": "Guaraní International Airport",
     "municipality": "Ciudad del Este",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58618,7 +58663,7 @@
   },
   {
     "iata_code": "ESG",
-    "name": "Aeropuerto Internacional Dr. Luis Maria Argaña",
+    "name": "Dr. Luis María Argaña International Airport",
     "municipality": "Mariscal Estigarribia",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -59932,8 +59977,8 @@
   },
   {
     "iata_code": "PZA",
-    "name": "Paz De Ariporo Airport",
-    "municipality": "Paz De Ariporo",
+    "name": "Paz de Ariporo Airport",
+    "municipality": "Paz de Ariporo",
     "iso_country": "CO",
     "country_jp": "コロンビア",
     "state_jp": "",
@@ -60382,7 +60427,7 @@
   },
   {
     "iata_code": "ORU",
-    "name": "Juan Mendoza Airport",
+    "name": "Juan Mendoza International Airport",
     "municipality": "Oruro",
     "iso_country": "BO",
     "country_jp": "ボリビア",
@@ -60626,7 +60671,7 @@
   {
     "iata_code": "PBM",
     "name": "Johan Adolf Pengel International Airport",
-    "municipality": "Zandery",
+    "municipality": "Paramaribo",
     "iso_country": "SR",
     "country_jp": "スリナム",
     "state_jp": "",
@@ -61804,7 +61849,7 @@
   },
   {
     "iata_code": "PIU",
-    "name": "Capitán FAP Guillermo Concha Iberico International Airport",
+    "name": "PAF Captain Guillermo Concha Iberico International Airport",
     "municipality": "Piura",
     "iso_country": "PE",
     "country_jp": "ペルー",
@@ -62407,7 +62452,7 @@
   },
   {
     "iata_code": "BRM",
-    "name": "Barquisimeto International Airport",
+    "name": "Jacinto Lara International Airport",
     "municipality": "Barquisimeto",
     "iso_country": "VE",
     "country_jp": "ベネズエラ",
@@ -62714,7 +62759,7 @@
   {
     "iata_code": "PZO",
     "name": "General Manuel Carlos Piar International Airport",
-    "municipality": "Puerto Ordaz-Ciudad Guayana",
+    "municipality": "Guyana City",
     "iso_country": "VE",
     "country_jp": "ベネズエラ",
     "state_jp": "",
@@ -63570,15 +63615,6 @@
     "iata_code": "ANU",
     "name": "V. C. Bird International Airport",
     "municipality": "Osbourn",
-    "iso_country": "AG",
-    "country_jp": "アンティグア・バーブーダ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "BBQ",
-    "name": "Codrington Airport",
-    "municipality": "Codrington",
     "iso_country": "AG",
     "country_jp": "アンティグア・バーブーダ",
     "state_jp": "",
@@ -65152,7 +65188,7 @@
   },
   {
     "iata_code": "UUS",
-    "name": "Yuzhno-Sakhalinsk Airport",
+    "name": "Yuzhno-Sakhalinsk International Airport",
     "municipality": "Yuzhno-Sakhalinsk",
     "iso_country": "RU",
     "country_jp": "ロシア連邦",
@@ -65568,15 +65604,6 @@
     "iata_code": "KHE",
     "name": "Kherson International Airport",
     "municipality": "Kherson",
-    "iso_country": "UA",
-    "country_jp": "ウクライナ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "NLV",
-    "name": "Mykolaiv International Airport",
-    "municipality": "Nikolayev",
     "iso_country": "UA",
     "country_jp": "ウクライナ",
     "state_jp": "",
@@ -68481,6 +68508,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "HWR",
+    "name": "Halwara International Airport",
+    "municipality": "Halwara",
+    "iso_country": "IN",
+    "country_jp": "インド",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "JDH",
     "name": "Jodhpur Airport",
     "municipality": "Jodhpur",
@@ -69203,7 +69239,7 @@
   {
     "iata_code": "BLR",
     "name": "Kempegowda International Airport Bengaluru",
-    "municipality": "Bangaluru",
+    "municipality": "Bengaluru",
     "iso_country": "IN",
     "country_jp": "インド",
     "state_jp": "",
@@ -69616,7 +69652,7 @@
   },
   {
     "iata_code": "MLE",
-    "name": "Malé International Airport",
+    "name": "Velana International Airport",
     "municipality": "Malé",
     "iso_country": "MV",
     "country_jp": "モルディブ",
@@ -69895,7 +69931,7 @@
   },
   {
     "iata_code": "KBV",
-    "name": "Krabi Airport",
+    "name": "Krabi International Airport",
     "municipality": "Krabi",
     "iso_country": "TH",
     "country_jp": "タイ",
@@ -70877,7 +70913,7 @@
   {
     "iata_code": "BMU",
     "name": "Sultan Muhammad Salahuddin Airport",
-    "municipality": "Palibelo, Bima",
+    "municipality": "Bima",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -71489,7 +71525,7 @@
   {
     "iata_code": "BDJ",
     "name": "Syamsudin Noor International Airport",
-    "municipality": "Landasan Ulin",
+    "municipality": "Banjarbaru",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -79130,7 +79166,7 @@
   {
     "iata_code": "RLK",
     "name": "Bayannur Tianjitai Airport",
-    "municipality": "Bavannur",
+    "municipality": "Bayannur",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -79166,7 +79202,7 @@
   {
     "iata_code": "BHY",
     "name": "Beihai Fucheng Airport",
-    "municipality": "Beihai (Yinhai)",
+    "municipality": "Beihai",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -79426,7 +79462,7 @@
   },
   {
     "iata_code": "EHU",
-    "name": "Ezhou Huahu Airport",
+    "name": "Ezhou Huahu International Airport",
     "municipality": "Ezhou",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -80165,7 +80201,7 @@
   {
     "iata_code": "LJG",
     "name": "Lijiang Sanyi International Airport",
-    "municipality": "Lijiang (Gucheng)",
+    "municipality": "Lijiang",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -80488,7 +80524,7 @@
   },
   {
     "iata_code": "HIA",
-    "name": "Huai'an Lianshui International Airport",
+    "name": "Huai'an Lianshui Airport",
     "municipality": "Huai'an",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -80533,7 +80569,7 @@
   },
   {
     "iata_code": "TXN",
-    "name": "Tunxi International Airport",
+    "name": "Huangshan Tunxi International Airport",
     "municipality": "Huangshan",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -80651,7 +80687,7 @@
   {
     "iata_code": "YIW",
     "name": "Yiwu Airport",
-    "municipality": "Jinhua (Yiwu)",
+    "municipality": "Yiwu/Jinhua",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -80659,7 +80695,7 @@
   },
   {
     "iata_code": "HSN",
-    "name": "Zhoushan Putuoshan Airport",
+    "name": "Zhoushan Putuoshan International Airport",
     "municipality": "Zhoushan",
     "iso_country": "CN",
     "country_jp": "中国",
