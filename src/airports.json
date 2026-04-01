@@ -1152,6 +1152,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "VLO",
+    "name": "(Duplicate)Vlora International Airport",
+    "municipality": "Vlorë",
+    "iso_country": "AL",
+    "country_jp": "アルバニア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "ALZ",
     "name": "Alitak Seaplane Base",
     "municipality": "Lazy Bay",
@@ -19152,15 +19161,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "OGV",
-    "name": "Ongava Lodge Airstrip",
-    "municipality": "Ombika",
-    "iso_country": "NA",
-    "country_jp": "ナミビア",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "OND",
     "name": "Ondangwa Airport",
     "municipality": "Ondangwa",
@@ -21322,7 +21322,7 @@
   },
   {
     "iata_code": "MQX",
-    "name": "Alula Aba Nega Airport",
+    "name": "Mekele Alula Aba Nega Airport",
     "municipality": "Mekele",
     "iso_country": "ET",
     "country_jp": "エチオピア",
@@ -23241,6 +23241,15 @@
     "iata_code": "ENG",
     "name": "Enggano Airport",
     "municipality": "Enggano",
+    "iso_country": "ID",
+    "country_jp": "インドネシア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "WDB",
+    "name": "Weda Bay Airport",
+    "municipality": "Weda",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -40842,15 +40851,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "QZD",
-    "name": "Szeged Airport",
-    "municipality": "Szeged",
-    "iso_country": "HU",
-    "country_jp": "ハンガリー",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "CRV",
     "name": "Crotone Sant'Anna Pythagoras Airport",
     "municipality": "Isola di Capo Rizzuto (KR)",
@@ -42085,7 +42085,7 @@
   },
   {
     "iata_code": "GVA",
-    "name": "Geneva Cointrin International Airport",
+    "name": "Geneva International Airport",
     "municipality": "Geneva",
     "iso_country": "CH",
     "country_jp": "スイス",
@@ -43993,7 +43993,7 @@
   },
   {
     "iata_code": "ACN",
-    "name": "Ciudad Acuña New International Airport",
+    "name": "Ciudad Acuña International Airport",
     "municipality": "Ciudad Acuña",
     "iso_country": "MX",
     "country_jp": "メキシコ",
@@ -48718,8 +48718,8 @@
   },
   {
     "iata_code": "HAS",
-    "name": "Ha'il Airport",
-    "municipality": "Ha'il",
+    "name": "Hail International Airport",
+    "municipality": "Hail",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
     "state_jp": "",
@@ -48781,7 +48781,7 @@
   },
   {
     "iata_code": "AQI",
-    "name": "Al Qaisumah/Hafr Al Batin Airport",
+    "name": "Qaisumah–Hafar Al-Batin International Airport",
     "municipality": "Qaisumah",
     "iso_country": "SA",
     "country_jp": "サウジアラビア",
@@ -48953,7 +48953,7 @@
   {
     "iata_code": "AKW",
     "name": "Aghajari Airport",
-    "municipality": "Aghajari",
+    "municipality": "Omidiyeh",
     "iso_country": "IR",
     "country_jp": "イラン",
     "state_jp": "",
@@ -53136,15 +53136,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "JIW",
-    "name": "Jiwani Airport (INACTIVE}",
-    "municipality": "Jiwani",
-    "iso_country": "PK",
-    "country_jp": "パキスタン",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "BHC",
     "name": "Bhurban Heliport",
     "municipality": "Bhurban",
@@ -53650,7 +53641,7 @@
   },
   {
     "iata_code": "IBR",
-    "name": "Ibaraki International Airport",
+    "name": "Ibaraki Airport",
     "municipality": "Omitama",
     "iso_country": "JP",
     "country_jp": "日本",
@@ -63945,6 +63936,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "BKN",
+    "name": "Balkanabat International Airport",
+    "municipality": "Balkanabat",
+    "iso_country": "TM",
+    "country_jp": "トルクメニスタン",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "AUA",
     "name": "Queen Beatrix International Airport",
     "municipality": "Oranjestad",
@@ -66240,15 +66240,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "KYL",
-    "name": "Port Largo Airport",
-    "municipality": "Key Largo",
-    "iso_country": "US",
-    "country_jp": "アメリカ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "FWL",
     "name": "Farewell Airport",
     "municipality": "Farewell",
@@ -66582,15 +66573,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "BKN",
-    "name": "Balkanabat Airport",
-    "municipality": "Balkanabat",
-    "iso_country": "TM",
-    "country_jp": "トルクメニスタン",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "GMV",
     "name": "Monument Valley Airport",
     "municipality": "Oljato-Monument Valley",
@@ -66619,8 +66601,8 @@
   },
   {
     "iata_code": "KRW",
-    "name": "Turkmenbashi International Airport",
-    "municipality": "Turkmenbashi",
+    "name": "Turkmenbaşy International Airport",
+    "municipality": "Turkmenbaşy",
     "iso_country": "TM",
     "country_jp": "トルクメニスタン",
     "state_jp": "",
@@ -66637,7 +66619,7 @@
   },
   {
     "iata_code": "TAZ",
-    "name": "Daşoguz Airport",
+    "name": "Dashoguz International Airport",
     "municipality": "Daşoguz",
     "iso_country": "TM",
     "country_jp": "トルクメニスタン",
@@ -66664,8 +66646,8 @@
   },
   {
     "iata_code": "TJU",
-    "name": "Kulob Airport",
-    "municipality": "Kulyab",
+    "name": "Kulob International Airport",
+    "municipality": "Kulob",
     "iso_country": "TJ",
     "country_jp": "タジキスタン",
     "state_jp": "",
@@ -66682,8 +66664,8 @@
   },
   {
     "iata_code": "KQT",
-    "name": "Qurghonteppa International Airport",
-    "municipality": "Kurgan-Tyube",
+    "name": "Bokhtar International Airport",
+    "municipality": "Bokhtar",
     "iso_country": "TJ",
     "country_jp": "タジキスタン",
     "state_jp": "",
@@ -66818,7 +66800,7 @@
   {
     "iata_code": "OMN",
     "name": "Zomin Airport",
-    "municipality": "Zaamin",
+    "municipality": "Zomin",
     "iso_country": "UZ",
     "country_jp": "ウズベキスタン",
     "state_jp": "",
@@ -69022,7 +69004,7 @@
   },
   {
     "iata_code": "LUA",
-    "name": "Lukla Airport",
+    "name": "Tenzing-Hillary Airport",
     "municipality": "Lukla",
     "iso_country": "NP",
     "country_jp": "ネパール",
@@ -70418,7 +70400,7 @@
   {
     "iata_code": "HEH",
     "name": "Heho Airport",
-    "municipality": "Kalaw Township",
+    "municipality": "Heho",
     "iso_country": "MM",
     "country_jp": "ミャンマー",
     "state_jp": "",
@@ -71334,6 +71316,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "IVD",
+    "name": "Nusantara International Airport",
+    "municipality": "Nusantara",
+    "iso_country": "ID",
+    "country_jp": "インドネシア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "BPN",
     "name": "Sultan Aji Muhammad Sulaiman Sepinggan International Airport",
     "municipality": "Balikpapan",
@@ -71361,15 +71352,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "BYQ",
-    "name": "Bunyu Airport",
-    "municipality": "Bunju Island",
-    "iso_country": "ID",
-    "country_jp": "インドネシア",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "GLX",
     "name": "Gamarmalamo Airport",
     "municipality": "Galela",
@@ -71390,7 +71372,7 @@
   {
     "iata_code": "GTO",
     "name": "Jalaluddin Airport",
-    "municipality": "Gorontalo-Celebes Island",
+    "municipality": "Gorontalo",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -71480,7 +71462,7 @@
   {
     "iata_code": "UOL",
     "name": "Buol - Pogogul Airport",
-    "municipality": "Buol-Celebes Island",
+    "municipality": "Buol",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -79660,7 +79642,7 @@
   },
   {
     "iata_code": "WOS",
-    "name": "Wonsan Kalma International Airport",
+    "name": "Wonsan Kalma Airport",
     "municipality": "Wonsan",
     "iso_country": "KP",
     "country_jp": "北朝鮮",
@@ -80272,7 +80254,7 @@
   },
   {
     "iata_code": "BFU",
-    "name": "Bengbu Tenghu Airport",
+    "name": "Bengbu Renheji Airport",
     "municipality": "Bengbu",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -81201,6 +81183,15 @@
     "iata_code": "KJI",
     "name": "Burqin Kanas Airport",
     "municipality": "Burqin",
+    "iso_country": "CN",
+    "country_jp": "中国",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "DHH",
+    "name": "Barkol Dahe Airport",
+    "municipality": "Barkol",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
