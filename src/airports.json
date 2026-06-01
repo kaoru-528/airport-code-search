@@ -11602,7 +11602,7 @@
   },
   {
     "iata_code": "KJK",
-    "name": "Flanders International Airport Kortrijk-Wevelgem",
+    "name": "Kortrijk-Wevelgem International Airport",
     "municipality": "Wevelgem",
     "iso_country": "BE",
     "country_jp": "ベルギー",
@@ -17362,7 +17362,7 @@
   },
   {
     "iata_code": "NOS",
-    "name": "Nosy Be-Fascene International Airport",
+    "name": "Nosy Be International Airport",
     "municipality": "Nosy Be",
     "iso_country": "MG",
     "country_jp": "マダガスカル",
@@ -19955,7 +19955,7 @@
   {
     "iata_code": "BJL",
     "name": "Banjul International Airport",
-    "municipality": "Yundum",
+    "municipality": "Banjul (Yundum)",
     "iso_country": "GM",
     "country_jp": "ガンビア",
     "state_jp": "",
@@ -52749,6 +52749,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "KSG",
+    "name": "Kisengam Airport [CLOSED]",
+    "municipality": "Kisenden",
+    "iso_country": "PG",
+    "country_jp": "パプアニューギニア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "PAW",
     "name": "Pambwa Airstrip",
     "municipality": "Pambwa Station",
@@ -53472,15 +53481,6 @@
     "iata_code": "MZG",
     "name": "Penghu Magong Airport",
     "municipality": "Huxi",
-    "iso_country": "TW",
-    "country_jp": "台湾",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "PIF",
-    "name": "Pingtung Air Force Base North",
-    "municipality": "Pingtung",
     "iso_country": "TW",
     "country_jp": "台湾",
     "state_jp": "",
@@ -55335,6 +55335,15 @@
     "iata_code": "UHS",
     "name": "Aleksandrovsk-Sakhalinskiy Airport",
     "municipality": "Aleksandrovsk-Sakhalinskiy",
+    "iso_country": "RU",
+    "country_jp": "ロシア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "VLU",
+    "name": "Velikiye Luki Airport",
+    "municipality": "Velikiye Luki",
     "iso_country": "RU",
     "country_jp": "ロシア",
     "state_jp": "",
@@ -76889,7 +76898,7 @@
   {
     "iata_code": "RPM",
     "name": "Ngukurr Airport",
-    "municipality": "",
+    "municipality": "Roper River",
     "iso_country": "AU",
     "country_jp": "オーストラリア",
     "state_jp": "",
@@ -78435,15 +78444,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "WIT",
-    "name": "Wittenoom Airport",
-    "municipality": "",
-    "iso_country": "AU",
-    "country_jp": "オーストラリア",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "WKB",
     "name": "Warracknabeal Airport",
     "municipality": "",
@@ -79769,7 +79769,7 @@
   {
     "iata_code": "XIY",
     "name": "Xi'an Xianyang International Airport",
-    "municipality": "Xianyang (Weicheng)",
+    "municipality": "Xi'an",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
