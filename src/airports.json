@@ -639,6 +639,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "ALV",
+    "name": "Andorra la Vella Heliport",
+    "municipality": "Escaldes-Engordany",
+    "iso_country": "AD",
+    "country_jp": "アンドラ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "ADV",
     "name": "El Daein Airport",
     "municipality": "El Daein",
@@ -1359,15 +1368,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "WFR",
-    "name": "[Duplicate] Wolf's Fang Runway",
-    "municipality": "Queen Maud Island",
-    "iso_country": "AQ",
-    "country_jp": "南極",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "LYT",
     "name": "Lady Elliot Island Airstrip",
     "municipality": "Lady Elliot Island",
@@ -1380,6 +1380,15 @@
     "iata_code": "GYZ",
     "name": "Gruyere Airport",
     "municipality": "Cosmo Newbery",
+    "iso_country": "AU",
+    "country_jp": "オーストラリア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "WSI",
+    "name": "Western Sydney International (Nancy-Bird Walton) Airport",
+    "municipality": "Sydney",
     "iso_country": "AU",
     "country_jp": "オーストラリア",
     "state_jp": "",
@@ -6357,6 +6366,15 @@
     "iata_code": "HEW",
     "name": "Dongyang Hengdian General Airport",
     "municipality": "Jinhua (Dongyang)",
+    "iso_country": "CN",
+    "country_jp": "中国",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "LSG",
+    "name": "Leshan Airport",
+    "municipality": "Leshan (Wutongqiao)",
     "iso_country": "CN",
     "country_jp": "中国",
     "state_jp": "",
@@ -12735,15 +12753,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "CVT",
-    "name": "Coventry Airport",
-    "municipality": "Coventry, West Midlands",
-    "iso_country": "GB",
-    "country_jp": "イギリス",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "GLO",
     "name": "Gloucestershire Airport",
     "municipality": "Staverton, Gloucestershire",
@@ -14976,15 +14985,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "GVX",
-    "name": "Gävle Sandviken Airport",
-    "municipality": "Gävle / Sandviken",
-    "iso_country": "SE",
-    "country_jp": "スウェーデン",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "LPI",
     "name": "Linköping City Airport",
     "municipality": "Linköping",
@@ -15959,7 +15959,7 @@
   {
     "iata_code": "VRU",
     "name": "Vryburg Airport",
-    "municipality": "Vyrburg",
+    "municipality": "Vryburg",
     "iso_country": "ZA",
     "country_jp": "南アフリカ",
     "state_jp": "",
@@ -17706,15 +17706,6 @@
     "iata_code": "CTI",
     "name": "Cuito Cuanavale Airport",
     "municipality": "Cuito Cuanavale",
-    "iso_country": "AO",
-    "country_jp": "アンゴラ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "CXM",
-    "name": "Camaxilo Airport",
-    "municipality": "Camaxilo",
     "iso_country": "AO",
     "country_jp": "アンゴラ",
     "state_jp": "",
@@ -19865,7 +19856,7 @@
   {
     "iata_code": "NRM",
     "name": "Nara Airport",
-    "municipality": "Nara",
+    "municipality": "Keibane",
     "iso_country": "ML",
     "country_jp": "マリ",
     "state_jp": "",
@@ -19882,7 +19873,7 @@
   },
   {
     "iata_code": "KSS",
-    "name": "Sikasso Airport",
+    "name": "Sikasso (Dignangan) Airport",
     "municipality": "Sikasso",
     "iso_country": "ML",
     "country_jp": "マリ",
@@ -21871,7 +21862,7 @@
   },
   {
     "iata_code": "HMB",
-    "name": "Sohag International Airport",
+    "name": "Suhaj International Airport",
     "municipality": "Suhaj",
     "iso_country": "EG",
     "country_jp": "エジプト",
@@ -23608,7 +23599,7 @@
   },
   {
     "iata_code": "JRB",
-    "name": "Downtown Manhattan Heliport",
+    "name": "Downtown Skyport Heliport",
     "municipality": "New York",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -30052,7 +30043,7 @@
   },
   {
     "iata_code": "MNZ",
-    "name": "Manassas Regional Airport/Harry P. Davis Field",
+    "name": "Washington Manassas Harry P. Davis Field",
     "municipality": "Manassas",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -33904,7 +33895,7 @@
   },
   {
     "iata_code": "OAK",
-    "name": "San Francisco Bay Oakland International Airport",
+    "name": "Oakland San Francisco Bay Airport",
     "municipality": "Oakland",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -34678,7 +34669,7 @@
   },
   {
     "iata_code": "PBI",
-    "name": "Palm Beach International Airport",
+    "name": "President Donald J. Trump International Airport",
     "municipality": "West Palm Beach",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -37425,6 +37416,15 @@
     "iata_code": "TIX",
     "name": "Space Coast Regional Airport",
     "municipality": "Titusville",
+    "iso_country": "US",
+    "country_jp": "アメリカ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "DTX",
+    "name": "McKinney National Airport",
+    "municipality": "Dallas",
     "iso_country": "US",
     "country_jp": "アメリカ",
     "state_jp": "",
@@ -44937,15 +44937,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "TTQ",
-    "name": "Barra del Tortuguero",
-    "municipality": "Tortuguero",
-    "iso_country": "CR",
-    "country_jp": "コスタリカ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "OTR",
     "name": "Coto 47 Airport",
     "municipality": "Corredores",
@@ -46037,7 +46028,7 @@
   {
     "iata_code": "MZE",
     "name": "Manatee Airport",
-    "municipality": "",
+    "municipality": "Spanish Lookout",
     "iso_country": "BZ",
     "country_jp": "ベリーズ",
     "state_jp": "",
@@ -52749,6 +52740,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "BIZ",
+    "name": "Bimin Airport",
+    "municipality": "Bimin",
+    "iso_country": "PG",
+    "country_jp": "パプアニューギニア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "KSG",
     "name": "Kisengam Airport [CLOSED]",
     "municipality": "Kisenden",
@@ -53067,15 +53067,6 @@
     "iata_code": "BHC",
     "name": "Bhurban Heliport",
     "municipality": "Bhurban",
-    "iso_country": "PK",
-    "country_jp": "パキスタン",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "CWP",
-    "name": "Campbellpore Airport",
-    "municipality": "Campbellpore",
     "iso_country": "PK",
     "country_jp": "パキスタン",
     "state_jp": "",
@@ -54433,7 +54424,7 @@
   },
   {
     "iata_code": "GMP",
-    "name": "Gimpo International Airport",
+    "name": "Seoul Gimpo International Airport",
     "municipality": "Seoul",
     "iso_country": "KR",
     "country_jp": "大韓民国",
@@ -54444,15 +54435,6 @@
     "iata_code": "SWU",
     "name": "Suwon Airport",
     "municipality": "Suwon",
-    "iso_country": "KR",
-    "country_jp": "韓国",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "QDY",
-    "name": "Taean Airport",
-    "municipality": "Taean",
     "iso_country": "KR",
     "country_jp": "韓国",
     "state_jp": "",
@@ -65433,15 +65415,6 @@
     "iata_code": "KGO",
     "name": "Kirovograd Airport",
     "municipality": "Kirovograd",
-    "iso_country": "UA",
-    "country_jp": "ウクライナ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "IEV",
-    "name": "Ihor Sikorsky Kyiv International Airport (Zhuliany)",
-    "municipality": "Kyiv",
     "iso_country": "UA",
     "country_jp": "ウクライナ",
     "state_jp": "",
@@ -77076,6 +77049,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "OBA",
+    "name": "Oban Airport",
+    "municipality": "Oban",
+    "iso_country": "AU",
+    "country_jp": "オーストラリア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "OPI",
     "name": "Oenpelli Airport",
     "municipality": "",
@@ -77997,15 +77979,6 @@
     "iata_code": "SWC",
     "name": "Stawell Airport",
     "municipality": "",
-    "iso_country": "AU",
-    "country_jp": "オーストラリア",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "WSI",
-    "name": "[Duplicate] Western Sydney International Airport",
-    "municipality": "Sydney",
     "iso_country": "AU",
     "country_jp": "オーストラリア",
     "state_jp": "",
