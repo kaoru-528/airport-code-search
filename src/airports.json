@@ -6526,7 +6526,7 @@
   },
   {
     "iata_code": "ZAT",
-    "name": "Zhaotong Zhaoyang Airport （Not fully opened)",
+    "name": "Zhaotong Zhaoyang Airport",
     "municipality": "Zhaotong",
     "iso_country": "CN",
     "country_jp": "中国",
@@ -10917,15 +10917,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "DHL",
-    "name": "Ad-Dali Airport",
-    "municipality": "Ad-Dali",
-    "iso_country": "YE",
-    "country_jp": "イエメン",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "ABO",
     "name": "Aboisso Airport",
     "municipality": "Aboisso",
@@ -13331,7 +13322,7 @@
   {
     "iata_code": "EDI",
     "name": "Edinburgh Airport",
-    "municipality": "Edinburgh",
+    "municipality": "Ingliston, Edinburgh",
     "iso_country": "GB",
     "country_jp": "イギリス",
     "state_jp": "",
@@ -20916,15 +20907,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "NTO",
-    "name": "Agostinho Neto Airport",
-    "municipality": "Ponta do Sol",
-    "iso_country": "CV",
-    "country_jp": "カーボベルデ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "BVC",
     "name": "Aristides Pereira International Airport",
     "municipality": "Rabil",
@@ -23412,6 +23394,15 @@
     "iata_code": "AYJ",
     "name": "Maharshi Valmiki International Airport",
     "municipality": "Faizabad",
+    "iso_country": "IN",
+    "country_jp": "インド",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "AVR",
+    "name": "Amravati  Airport",
+    "municipality": "Amravati",
     "iso_country": "IN",
     "country_jp": "インド",
     "state_jp": "",
@@ -29693,7 +29684,7 @@
   {
     "iata_code": "GRF",
     "name": "Gray Army Air Field",
-    "municipality": "Fort Lewis/Tacoma",
+    "municipality": "Joint Base Lewis McChord",
     "iso_country": "US",
     "country_jp": "アメリカ",
     "state_jp": "",
@@ -29872,7 +29863,7 @@
   },
   {
     "iata_code": "GWS",
-    "name": "Glenwood Springs Municipal Airport",
+    "name": "Sumers Airpark",
     "municipality": "Glenwood Springs",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -32473,7 +32464,7 @@
   },
   {
     "iata_code": "MEM",
-    "name": "Memphis International Airport",
+    "name": "Frederick W. Smith International Airport",
     "municipality": "Memphis",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -34668,7 +34659,7 @@
     "city_jp": ""
   },
   {
-    "iata_code": "PBI",
+    "iata_code": "DJT",
     "name": "President Donald J. Trump International Airport",
     "municipality": "West Palm Beach",
     "iso_country": "US",
@@ -36217,7 +36208,7 @@
   },
   {
     "iata_code": "MQT",
-    "name": "Marquette/Sawyer International Airport",
+    "name": "Marquette Sawyer Regional Airport",
     "municipality": "Gwinn",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -36595,7 +36586,7 @@
   },
   {
     "iata_code": "SJC",
-    "name": "Norman Y. Mineta San Jose International Airport",
+    "name": "Mineta San Jose International Airport",
     "municipality": "San Jose",
     "iso_country": "US",
     "country_jp": "アメリカ",
@@ -38746,7 +38737,7 @@
   },
   {
     "iata_code": "GEC",
-    "name": "Lefkoniko Airport / Geçitkale Air Base",
+    "name": "Geçitkale Airbase",
     "municipality": "Lefkoniko (Geçitkale)",
     "iso_country": "CY",
     "country_jp": "キプロス",
@@ -44658,6 +44649,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "UGT",
+    "name": "Bulagtai Resort Airport",
+    "municipality": "Khankhongor",
+    "iso_country": "MN",
+    "country_jp": "モンゴル",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "BEF",
     "name": "Bluefields Airport",
     "municipality": "Bluefields",
@@ -44931,6 +44931,15 @@
     "iata_code": "BCL",
     "name": "Barra del Colorado Airport",
     "municipality": "Pococi",
+    "iso_country": "CR",
+    "country_jp": "コスタリカ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "TTQ",
+    "name": "Tortuguero Airport",
+    "municipality": "Tortuguero",
     "iso_country": "CR",
     "country_jp": "コスタリカ",
     "state_jp": "",
@@ -56683,7 +56692,7 @@
   },
   {
     "iata_code": "GIG",
-    "name": "Rio Galeão – Tom Jobim International Airport",
+    "name": "Rio de Janeiro Galeão – Tom Jobim International Airport",
     "municipality": "Rio De Janeiro",
     "iso_country": "BR",
     "country_jp": "ブラジル",
@@ -58224,6 +58233,15 @@
     "iata_code": "HUV",
     "name": "Hudiksvall Airport",
     "municipality": "Hudiksvall",
+    "iso_country": "SE",
+    "country_jp": "スウェーデン",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "GVX",
+    "name": "Gävle–Sandviken Airport",
+    "municipality": "Sandviken",
     "iso_country": "SE",
     "country_jp": "スウェーデン",
     "state_jp": "",
@@ -63936,15 +63954,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "XXX",
-    "name": "Serik Bus Station Helipad",
-    "municipality": "Serik",
-    "iso_country": "TR",
-    "country_jp": "トルコ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "MNI",
     "name": "John A. Osborne Airport",
     "municipality": "Gerald's Park",
@@ -65421,6 +65430,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "IEV",
+    "name": "Igor Sikorsky Kyiv International Airport (Zhuliany)",
+    "municipality": "Kyiv",
+    "iso_country": "UA",
+    "country_jp": "ウクライナ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "ZTR",
     "name": "Zhytomyr Airport",
     "municipality": "Zhytomyr",
@@ -65505,6 +65523,15 @@
     "iata_code": "KHE",
     "name": "Kherson International Airport",
     "municipality": "Kherson",
+    "iso_country": "UA",
+    "country_jp": "ウクライナ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "NLV",
+    "name": "Mykolaiv International Airport [CLOSED]",
+    "municipality": "Mykolaiv",
     "iso_country": "UA",
     "country_jp": "ウクライナ",
     "state_jp": "",
@@ -68085,15 +68112,6 @@
     "city_jp": ""
   },
   {
-    "iata_code": "VTZ",
-    "name": "Visakhapatnam International Airport",
-    "municipality": "Visakhapatnam",
-    "iso_country": "IN",
-    "country_jp": "インド",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
     "iata_code": "ZER",
     "name": "Ziro Airport",
     "municipality": "Ziro",
@@ -68545,7 +68563,7 @@
   },
   {
     "iata_code": "SXR",
-    "name": "Sheikh ul Alam International Airport",
+    "name": "Srinagar International Airport",
     "municipality": "Srinagar",
     "iso_country": "IN",
     "country_jp": "インド",
@@ -69420,6 +69438,15 @@
     "iata_code": "TRV",
     "name": "Thiruvananthapuram International Airport",
     "municipality": "Thiruvananthapuram",
+    "iso_country": "IN",
+    "country_jp": "インド",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "VTZ",
+    "name": "Alluri Sitarama Raju International Airport (Vizag)",
+    "municipality": "Visakhapatnam",
     "iso_country": "IN",
     "country_jp": "インド",
     "state_jp": "",
@@ -72000,6 +72027,15 @@
     "city_jp": ""
   },
   {
+    "iata_code": "KUB",
+    "name": "Anduki Airport",
+    "municipality": "Seria",
+    "iso_country": "BN",
+    "country_jp": "ブルネイ",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
     "iata_code": "WBB",
     "name": "Stebbins Airport",
     "municipality": "Stebbins",
@@ -72442,8 +72478,8 @@
   },
   {
     "iata_code": "TSY",
-    "name": "Cibeureum Airport",
-    "municipality": "Tasikmalaya-Java Island",
+    "name": "Wiriadinata Airport",
+    "municipality": "Cibeureum, Tasikmalaya-Java Island",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -79833,15 +79869,6 @@
     "iata_code": "UGA",
     "name": "Bulgan Airport",
     "municipality": "Bulgan",
-    "iso_country": "MN",
-    "country_jp": "モンゴル",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "UGT",
-    "name": "Bulagtai Resort Airport",
-    "municipality": "Khankhongor",
     "iso_country": "MN",
     "country_jp": "モンゴル",
     "state_jp": "",
