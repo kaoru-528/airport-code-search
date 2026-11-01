@@ -15562,7 +15562,7 @@
   },
   {
     "iata_code": "SDB",
-    "name": "Langebaanweg Airport",
+    "name": "Langebaanweg Air Force Base",
     "municipality": "Langebaanweg",
     "iso_country": "ZA",
     "country_jp": "南アフリカ",
@@ -15607,7 +15607,7 @@
   },
   {
     "iata_code": "MBD",
-    "name": "Mmabatho International Airport",
+    "name": "George Dick Montshioa Airport",
     "municipality": "Mafeking",
     "iso_country": "ZA",
     "country_jp": "南アフリカ",
@@ -23439,6 +23439,15 @@
     "iata_code": "AHA",
     "name": "Maa Mahamaya Airport",
     "municipality": "Ambikapur",
+    "iso_country": "IN",
+    "country_jp": "インド",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "DPP",
+    "name": "Datia Airport",
+    "municipality": "Datia",
     "iso_country": "IN",
     "country_jp": "インド",
     "state_jp": "",
@@ -40429,7 +40438,7 @@
   },
   {
     "iata_code": "EFL",
-    "name": "Kefallinia Airport",
+    "name": "Kefalonia International Airport \"Anna Pollatou\"",
     "municipality": "Kefallinia Island",
     "iso_country": "GR",
     "country_jp": "ギリシャ",
@@ -40708,7 +40717,7 @@
   },
   {
     "iata_code": "ZTH",
-    "name": "Zakynthos International Airport Dionysios Solomos",
+    "name": "Zakynthos International Airport \"Dionysios Solomos\"",
     "municipality": "Zakynthos",
     "iso_country": "GR",
     "country_jp": "ギリシャ",
@@ -53218,7 +53227,7 @@
   },
   {
     "iata_code": "PBT",
-    "name": "Aeródromo de Puerto Leda",
+    "name": "Puerto Leda Airport",
     "municipality": "Puerto Leda",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58447,7 +58456,7 @@
   },
   {
     "iata_code": "AYO",
-    "name": "Aeropuerto Nacional Juan de Ayolas",
+    "name": "Juan de Ayolas National Airport",
     "municipality": "Ayolas",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58492,7 +58501,7 @@
   },
   {
     "iata_code": "FLM",
-    "name": "Aeródromo de Filadelfia",
+    "name": "Fernheim Airport",
     "municipality": "Filadelfia",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58510,7 +58519,7 @@
   },
   {
     "iata_code": "OLK",
-    "name": "Aeródromo de Fuerte",
+    "name": "Fuerte Olimpo Airport",
     "municipality": "Fuerte Olimpo",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58519,7 +58528,7 @@
   },
   {
     "iata_code": "PIL",
-    "name": "Aeródromo Don Carlos Miguel Gimenez",
+    "name": "Don Carlos Miguel Gimenez Airport",
     "municipality": "Pilar",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -58528,7 +58537,7 @@
   },
   {
     "iata_code": "PJC",
-    "name": "Aeropuerto Nacional Dr. Augusto Roberto Fuster",
+    "name": "Dr. Augusto Roberto Fuster International Airport",
     "municipality": "Pedro Juan Caballero",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -68671,7 +68680,7 @@
   },
   {
     "iata_code": "VMI",
-    "name": "Aeropuerto Nacional Doctor Juan Plate",
+    "name": "Doctor Juan Plate National Airport",
     "municipality": "Puerto Vallemi",
     "iso_country": "PY",
     "country_jp": "パラグアイ",
@@ -71211,6 +71220,15 @@
     "iata_code": "DTD",
     "name": "Datadawai Airport",
     "municipality": "Datadawai-Borneo Island",
+    "iso_country": "ID",
+    "country_jp": "インドネシア",
+    "state_jp": "",
+    "city_jp": ""
+  },
+  {
+    "iata_code": "IVD",
+    "name": "Nusantara International Airport",
+    "municipality": "Nusantara",
     "iso_country": "ID",
     "country_jp": "インドネシア",
     "state_jp": "",
@@ -78690,15 +78708,6 @@
     "iata_code": "HPR",
     "name": "Pretoria Central Heliport",
     "municipality": "Pretoria",
-    "iso_country": "ZA",
-    "country_jp": "南アフリカ",
-    "state_jp": "",
-    "city_jp": ""
-  },
-  {
-    "iata_code": "TDT",
-    "name": "Tanda Tula Airport",
-    "municipality": "Timbavati",
     "iso_country": "ZA",
     "country_jp": "南アフリカ",
     "state_jp": "",
